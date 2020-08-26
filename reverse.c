@@ -58,7 +58,7 @@ int main(int argc, char* argv[])
 	    {
 		stdoutput = 1;
 		printf("sent out");
-	    	write_to_file(stdoutput,"helloL");
+	    	write_to_file(stdoutput,"NULL");
 	    }
 	    else
 	        write_to_file(stdoutput,argv[2]);
