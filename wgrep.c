@@ -6,7 +6,7 @@ int main(int argc, char*argv[])
 
     if(argc < 2)
     {
-	printf("wgrep:searchterm [file...]\n");
+	printf("wgrep: searchterm [file ...]\n");
 	exit(1);
     }
     int printAll = 0;
